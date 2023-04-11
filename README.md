@@ -147,17 +147,17 @@ This project was developed based on the web framework Flask and its MVT design p
 
 ## Part 4: Screenshots
 
-| ![home-out.png]() | ![home-in.png]() |
+| ![home-out.png](screenshots/home-out.png) | ![home-in.png](screenshots/home-in.png) |
 | :-: | :-: |
-| *Home Out* | *Home In* |
+| *Home Out* | *Home In* |  
 
-| ![login.png]() | ![signup.png]() |
+| ![login.png](screenshots/login.png) | ![signup.png](screenshots/signup.png) |
 | :-: | :-: |
-| *Login* | *Sign Up* |
+| *Login* | *Sign Up* |  
 
-| ![prof-view.png]() | ![prof-up.png]() |
+| ![prof-view.png](screenshots/prof-view.png) | ![prof-up.png](screenshots/prof-up.png) |
 | :-: | :-: |
-| *Profile View* | *Profile Update* |
+| *Profile View* | *Profile Update* |  
 
 ## Part 5: Testing
 
@@ -185,7 +185,7 @@ Test files breakdown:
 - **3. test_views.py**
   This python file defines automated test classes and their methods that are run against the app's views and endpoints to verify that they behave as expected.
 
-In order to determine the percentage of the application that is currently covered by the available tests, the [Coverage.py](https://coverage.readthedocs.io/en/latest/) package was used. Access the most up-to-date coverage report for this application [here](http://htmlpreview.github.io/?https://github.com/mateusfonseca/dorsetMusicCollection/blob/master/htmlcov/index.html), which indicates a 99% of total coverage.
+In order to determine the percentage of the application that is currently covered by the available tests, the [Coverage.py](https://coverage.readthedocs.io/en/latest/) package was used. Access the most up-to-date coverage report for this application [here](http://htmlpreview.github.io/?https://github.com/mateusfonseca/dorsetToDo/blob/master/htmlcov/index.html), which indicates a 99% of total coverage.
 
 ## Part 6: References
 
