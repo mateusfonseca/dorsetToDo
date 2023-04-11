@@ -1,0 +1,12 @@
+.local-is-center {
+    display: flex;
+    justify-content: center;
+}
+
+.local-is-half-width {
+    width: 49%;
+}
+
+.local-is-third-width {
+    width: 32%;
+}
