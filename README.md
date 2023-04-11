@@ -3,8 +3,8 @@
 **Dorset College Dublin**  
 **BSc in Science in Computing & Multimedia**  
 **Back-End Web Development - BSC30922**  
-**Year 3, Semesters 2**  
-**Continuous Assessments 4**
+**Year 3, Semester 2**  
+**Continuous Assessment 4**
 
 **Lecturer name:** Geoff Wright  
 **Lecturer email:** geoff.wright@dorset.ie
@@ -15,7 +15,7 @@
 
 **Submission date:** 18 April 2023
 
-This repository contains a "To-Do List" Flask web app developed for my CA 4 at Dorset College BSc in Computing, Year 3, Semesters 2.
+This repository contains a "To-Do List" Flask web app developed for my CA 4 at Dorset College BSc in Computing, Year 3, Semester 2.
 
 ## Part 1: Requirements and Setup
 
@@ -30,7 +30,7 @@ This repository contains a "To-Do List" Flask web app developed for my CA 4 at D
 **Environment:** create a file called *.env* at the root of the project with the following content:
 
     SECRET_KEY='<replace with your project's secrete key>'
-    MONGODB_PASSWORD='<replace with your MongoDB Atlas user's password>'
+    MONGODB_URI='<replace with your MongoDB Atlas cluster's connection string>'
 
 ## Part 2: Background
 
@@ -81,7 +81,7 @@ This project was developed based on the web framework Flask and its MVT design p
     - **POST:** if the user is authenticated, redirects to home page, else, verifies that the provided details are valid and email is not already in use. If positive, creates new user and redirects to login page.
   
     **Restrictions:** this view has no restrictions.
-  - **2.3 auth/logout**    
+  - **2.3 auth.logout**    
   This method controls user requests to the associated blueprint defined in the URL pattern *.../logout*. It accepts:
     - **GET:** logs user out and redirects to home page.
   
@@ -182,7 +182,7 @@ Test files breakdown:
   This python file defines the test configuration that pytest uses when running the automated tests.
 - **2. test_models.py**  
   This python file defines an automated test class and its methods that are run against the app's User model to verify that it behaves as expected.
-- **3. test_views.py**
+- **3. test_views.py**  
   This python file defines automated test classes and their methods that are run against the app's views and endpoints to verify that they behave as expected.
 
 In order to determine the percentage of the application that is currently covered by the available tests, the [Coverage.py](https://coverage.readthedocs.io/en/latest/) package was used. Access the most up-to-date coverage report for this application [here](http://htmlpreview.github.io/?https://github.com/mateusfonseca/dorsetToDo/blob/master/htmlcov/index.html), which indicates a 99% of total coverage.
