@@ -204,6 +204,8 @@ Conceptually, every line of code in this project was written based on official d
 - **[pytest](https://docs.pytest.org/en/7.1.x/contents.html)**
 - **[Coverage.py](https://coverage.readthedocs.io/en/7.2.2/)**
 
+The following tutorials from [DigitalOcean](https://www.digitalocean.com/) were of great help when implementing this application: [How To Use MongoDB in a Flask Application](https://www.digitalocean.com/community/tutorials/how-to-use-mongodb-in-a-flask-application) and [How To Add Authentication to Your App with Flask-Login](https://www.digitalocean.com/community/tutorials/how-to-add-authentication-to-your-app-with-flask-login).
+
 Clarifying code snippets from **[W3Schools](https://www.w3schools.com/)**.
 
 Visits to our most beloved **[StackOverflow](https://stackoverflow.com/)** certainly happened, for insight and understanding.
