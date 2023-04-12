@@ -147,6 +147,10 @@ This project was developed based on the web framework Flask and its MVT design p
 
 ## Part 4: Screenshots
 
+| ![hello-world-code.png](screenshots/hello-world-code.png) | ![hello-world-view.png](screenshots/hello-world-view.png) |
+| :-: | :-: |
+| *Hello World Code* | *Hello World View* |  
+
 | ![home-out.png](screenshots/home-out.png) | ![home-in.png](screenshots/home-in.png) |
 | :-: | :-: |
 | *Home Out* | *Home In* |  
