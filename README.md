@@ -19,13 +19,13 @@ This repository contains a "To-Do List" Flask web app developed for my CA 4 at D
 
 ## Part 1: Requirements and Setup
 
-**Framework:** this project requires installation of both [Python](https://www.python.org/downloads/) and [Flask](https://flask.palletsprojects.com/en/2.2.x/installation/).
+**Framework:** this project requires installation of both **[Python](https://www.python.org/downloads/)** and **[Flask](https://flask.palletsprojects.com/en/2.2.x/installation/)**.
 
 **Packages:** to install all the packages required by this application, as well as their dependencies, type the following on a terminal window at the root of the project:
 
     pip install -r requirements.txt
 
-**Database engine:** the project also requires access to a database through a user with enough privileges to create new tables and manipulate the data therein. The application is configured to work with the [MongoDB Atlas](https://www.mongodb.com/docs/atlas/getting-started/) cloud database.
+**Database engine:** the project also requires access to a database through a user with enough privileges to create new tables and manipulate the data therein. The application is configured to work with the **[MongoDB Atlas](https://www.mongodb.com/docs/atlas/getting-started/)** cloud database.
 
 **Environment:** create a file called *.env* at the root of the project with the following content:
 
@@ -165,7 +165,7 @@ This project was developed based on the web framework Flask and its MVT design p
 
 ## Part 5: Testing
 
-The application offers unit testing modules that can be run from the command line via [pytest](https://docs.pytest.org/en/7.2.x/). On a terminal window:
+The application offers unit testing modules that can be run from the command line via **[pytest](https://docs.pytest.org/en/7.2.x/)**. On a terminal window:
 
     # to run all tests
     pytest
@@ -189,7 +189,7 @@ Test files breakdown:
 - **3. test_views.py**  
   This python file defines automated test classes and their methods that are run against the app's views and endpoints to verify that they behave as expected.
 
-In order to determine the percentage of the application that is currently covered by the available tests, the [Coverage.py](https://coverage.readthedocs.io/en/latest/) package was used. Access the most up-to-date coverage report for this application [here](http://htmlpreview.github.io/?https://github.com/mateusfonseca/dorsetToDo/blob/master/htmlcov/index.html), which indicates a 99% of total coverage.
+In order to determine the percentage of the application that is currently covered by the available tests, the **[Coverage.py](https://coverage.readthedocs.io/en/latest/)** package was used. Access the most up-to-date coverage report for this application [here](http://htmlpreview.github.io/?https://github.com/mateusfonseca/dorsetToDo/blob/master/htmlcov/index.html), which indicates a 99% of total coverage.
 
 ## Part 6: References
 
@@ -204,7 +204,7 @@ Conceptually, every line of code in this project was written based on official d
 - **[pytest](https://docs.pytest.org/en/7.1.x/contents.html)**
 - **[Coverage.py](https://coverage.readthedocs.io/en/7.2.2/)**
 
-The following tutorials from [DigitalOcean](https://www.digitalocean.com/) were of great help when implementing this application: [How To Use MongoDB in a Flask Application](https://www.digitalocean.com/community/tutorials/how-to-use-mongodb-in-a-flask-application) and [How To Add Authentication to Your App with Flask-Login](https://www.digitalocean.com/community/tutorials/how-to-add-authentication-to-your-app-with-flask-login).
+The following tutorials from **[DigitalOcean](https://www.digitalocean.com/)** were of great help when implementing this application: [How To Use MongoDB in a Flask Application](https://www.digitalocean.com/community/tutorials/how-to-use-mongodb-in-a-flask-application) and [How To Add Authentication to Your App with Flask-Login](https://www.digitalocean.com/community/tutorials/how-to-add-authentication-to-your-app-with-flask-login).
 
 Clarifying code snippets from **[W3Schools](https://www.w3schools.com/)**.
 
