@@ -1,5 +1,8 @@
 # Flask Web App: To-Do List
 
+**Author:** Mateus Fonseca Campos  
+**Email:** mateusff8@gmail.com
+
 **Dorset College Dublin**  
 **BSc in Science in Computing & Multimedia**  
 **Back-End Web Development - BSC30922**  
