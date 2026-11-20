@@ -162,7 +162,7 @@ This project was developed based on the web framework Flask and its MVT design p
 | :-: | :-: |
 | *Login* | *Sign Up* |  
 
-| ![profile-view.png](screenshots/profile-view.png) | ![profile-up.png](screenshots/profile-up.png) |
+| ![profile-view.png](screenshots/profile-view.png) | ![profile-update.png](screenshots/profile-update.png) |
 | :-: | :-: |
 | *Profile View* | *Profile Update* |  
 
