@@ -158,11 +158,11 @@ This project was developed based on the web framework Flask and its MVT design p
 | :-: | :-: |
 | *Home Out* | *Home In* |  
 
-| ![login.png](screenshots/login.png) | ![signup.png](screenshots/signup.png) |
+| ![login.png](screenshots/login.png) | ![sign-up.png](screenshots/sign-up.png) |
 | :-: | :-: |
 | *Login* | *Sign Up* |  
 
-| ![prof-view.png](screenshots/prof-view.png) | ![prof-up.png](screenshots/prof-up.png) |
+| ![profile-view.png](screenshots/profile-view.png) | ![profile-up.png](screenshots/profile-up.png) |
 | :-: | :-: |
 | *Profile View* | *Profile Update* |  
 
